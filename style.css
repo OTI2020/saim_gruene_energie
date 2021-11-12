@@ -1,21 +1,24 @@
+body {
+  background-color: rgb(99, 151, 158);
+}
 
 
-#anlagen_tabel_1 {
+#table_1 {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  #anlagen_tabel_1 td, #anlagen_tabel_1 th {
+  #table_1 table td, #table_1 th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  #anlagen_tabel_1 tr:nth-child(even){background-color: #f2f2f2;}
+  #table_1 tr:nth-child(even){background-color: #f2f2f2;}
   
-  #anlagen_tabel_1 tr:hover {background-color: #ddd;}
+  #table_1 tr:hover {background-color: #ddd;}
   
-  #anlagen_tabel_1 th {
+  #table_1 th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
