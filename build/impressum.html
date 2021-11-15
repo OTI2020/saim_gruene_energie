@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <title>Details Windkraftanlagen</title>
+    <title>Impressum</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--_____LEAFLET CSS_____-->
@@ -10,7 +9,8 @@
     <!--_____LEAFLET DRAW CSS_____-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
     <!--_____OWN CSS_____-->
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/styles/details_style.css"/>
+    <link rel="stylesheet" href="/styles/headerFooterCustom.css"/>
     <!--_____LEAFLET JAVASCRIPT_____-->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <!--_____LEAFLET DRAW JAVASCRIPT_____-->
@@ -38,10 +38,10 @@
                         <a class="nav-link text-light rounded" href="details_photovoltaic.html">Details zu Photovoltaik</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light active rounded" href="details_wind.html">Details zu Windkraftanlagen</a>
+                        <a class="nav-link text-light rounded" href="details_wind.html">Details zu Windkraftanlagen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light rounded" href="impressum.html">Impressum</a>
+                        <a class="nav-link text-light active rounded" href="impressum.html">Impressum</a>
                     </li>
                 </ul>
             </div>
@@ -51,34 +51,14 @@
         <div id="contentFrame" class="d-flex justify-content-center flex-wrap align-items-center p-5">
             <div id="textContent" class=" col col-12 rounded text-center">
                 <h1> 
-                    Aktivität der Windkraftanlagen in live
+                    Wer sind wir? 
                 </h1>
                 <p>
-                    bla bli blub - hier könnte ein Erklärtext stehen :)
+                    Was machen wir? Äpfel? <br>
+                    wir benötigen noch einen Verweis auf die anderen Projektgruppen des Seminars :)  ... Miau ...
                 </p>
             </div>
-            <div id="table_1">
-                <table>
-                    <tr>
-                        <td>Anlage</td>
-                        <td>Standort</td>
-                        <td>Windgeschwindigkeit (m/s)</td>
-                        <td>Leistung (kW)</td>
-                    </tr>
-                    <tr>
-                        <td>test</td>
-                        <td>test</td>
-                        <td>null</td>
-                        <td>null</td>
-                    </tr>
-                    <tr>
-                        <td>test</td>
-                        <td>test</td>
-                        <td>null</td>
-                        <td>null</td>
-                    </tr>
-                </table>
-            </div>
+            <div id="map"></div>                
         </div>
     </div>
 
