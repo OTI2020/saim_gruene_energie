@@ -3,10 +3,12 @@
  * Basemap for Leaflet Application
  * @type Leaflet Map
  */
-    let mymap = L.map('mapID').setView([51.965, 7.63],13);
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(mymap);
+console.log("geladen");
+ var map = L.map('mapID').setView([51.9574469,7.5719975], 13);//7.5719975,51.9574469  51.957, -0.09
+
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+ }).addTo(map);
     
 
 /**
