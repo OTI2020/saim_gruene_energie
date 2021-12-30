@@ -9,12 +9,11 @@ body {
   }
 #main{ height: 95vh;}
 #mapid {
-    width: 600px; 
+    
     height: 600px;
-    display: inline-block;
-    box-shadow: 5px 5px 10px;
-    box-shadow: grey;
+   
 }
+#map { height: 180px; }
 #textContent{
     color: rgb(12, 55, 90);
     display: inline-block;
